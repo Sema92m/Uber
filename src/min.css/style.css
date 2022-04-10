@@ -672,6 +672,9 @@ footer a:hover {
     width: 300px;
     margin-top: 20px;
   }
+  .choice {
+    padding-bottom: 80px;
+  }
 }
 
 @media (max-width: 767px) {
