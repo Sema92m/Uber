@@ -47,6 +47,9 @@
             margin-top: 20px
     .choice 
         padding-bottom: 80px
+        &_img
+            transform: translateX(-50px)
+
 
 @media (max-width: 767px)
     .menu
@@ -116,7 +119,11 @@
     .promo
         &_header
             line-height: 45px
-            
+    .choice
+        &_img   
+            width: 100%;  
+            transform: translateX(-5%);
+               
 @media (max-width: 575px)
     nav
         height: 30px
@@ -133,6 +140,7 @@
             display: none
         &_logo
             margin-top: 16px
+            padding-left: 30px
         &_phone
             font-size: 12px
             font-weight: normal
@@ -148,6 +156,7 @@
     .promo
         min-height: 400px
         padding: 93px 0 35px 0
+        
         &_descr
             display: none
         &_header
@@ -167,7 +176,7 @@
             &:hover
                 background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
     .menu
-        width: 85%
+        width: 50%
         &_item
             width: 100%
             text-align: center
@@ -176,23 +185,41 @@
             display: block
     .hamburger
         &_active
+            left: 250px
             span
                 &:nth-child(1)
                     transform: translateY(5px) rotate(-45deg)
                 &:nth-child(3)
                     transform: translateY(5px) rotate(45deg)
     .reasons
-        padding: 22px 0 36px 0
+        padding: 35px 0
         &_block
             margin-top: 26px
         &_round
             width: 100px
             height: 100px
         &_descr
-            width: 100%
+            width: 95%
             margin-top: 27px
         &_subtitle
             font-size: 16px
             text-align: left
         &_text
             margin-top: 0
+
+    .choice
+        min-height: 700px;
+        padding-bottom: 30px;
+        &_img   
+            width: 100%;  
+            transform: translateX(-3%);
+    .requare
+        &_title
+            margin-left: 50px;
+    .world
+        min-height: 400px
+        &_suptitle
+            margin-top: 100px
+    .footer
+        &_wrapper
+            

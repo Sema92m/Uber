@@ -296,7 +296,7 @@ nav {
 
 .mobile_item {
   position: relative;
-  width: 320px;
+  width: 100%;
   height: 280px;
   margin: 0 auto;
   margin-bottom: 19px;
@@ -409,7 +409,7 @@ nav {
   line-height: 24px;
 }
 
-.choice .black {
+.choice_black {
   position: absolute;
   top: 0;
   left: 0;
@@ -420,7 +420,7 @@ nav {
 }
 
 .requare {
-  padding: 68px 0 94px 0;
+  padding: 10px 0 94px 0;
 }
 
 .requare_block {
@@ -682,6 +682,10 @@ footer a:hover {
   .choice {
     padding-bottom: 80px;
   }
+  .choice_img {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
 }
 
 @media (max-width: 767px) {
@@ -776,6 +780,11 @@ footer a:hover {
   .promo_header {
     line-height: 45px;
   }
+  .choice_img {
+    width: 100%;
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+  }
 }
 
 @media (max-width: 575px) {
@@ -799,6 +808,7 @@ footer a:hover {
   }
   .subheader_logo {
     margin-top: 16px;
+    padding-left: 30px;
   }
   .subheader_phone {
     font-size: 12px;
@@ -845,7 +855,7 @@ footer a:hover {
     background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   }
   .menu {
-    width: 85%;
+    width: 50%;
   }
   .menu_item {
     width: 100%;
@@ -854,6 +864,9 @@ footer a:hover {
   }
   .menu_link {
     display: block;
+  }
+  .hamburger_active {
+    left: 250px;
   }
   .hamburger_active span:nth-child(1) {
     -webkit-transform: translateY(5px) rotate(-45deg);
@@ -864,7 +877,7 @@ footer a:hover {
             transform: translateY(5px) rotate(45deg);
   }
   .reasons {
-    padding: 22px 0 36px 0;
+    padding: 35px 0;
   }
   .reasons_block {
     margin-top: 26px;
@@ -874,7 +887,7 @@ footer a:hover {
     height: 100px;
   }
   .reasons_descr {
-    width: 100%;
+    width: 95%;
     margin-top: 27px;
   }
   .reasons_subtitle {
@@ -883,5 +896,23 @@ footer a:hover {
   }
   .reasons_text {
     margin-top: 0;
+  }
+  .choice {
+    min-height: 700px;
+    padding-bottom: 30px;
+  }
+  .choice_img {
+    width: 100%;
+    -webkit-transform: translateX(-3%);
+            transform: translateX(-3%);
+  }
+  .requare_title {
+    margin-left: 50px;
+  }
+  .world {
+    min-height: 400px;
+  }
+  .world_suptitle {
+    margin-top: 100px;
   }
 }
