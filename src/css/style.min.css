@@ -106,7 +106,7 @@ nav {
 
 .subheader_btn:hover {
   background-image: none;
-  background-color: #1eacc7 re;
+  background-color: #1eacc7;
 }
 
 .promo {
@@ -165,7 +165,7 @@ nav {
 
 .promo_btn:hover {
   background-image: none;
-  background-color: #1eacc7 re;
+  background-color: #1eacc7;
 }
 
 .reasons {
@@ -198,8 +198,15 @@ nav {
   margin-right: 26px;
   width: 113px;
   height: 113px;
-  background-color: #1eacc7 re;
+  background-color: #1eacc7;
   border-radius: 100%;
+}
+
+.reasons_round ::before {
+  content: '';
+  background-color: #1eacc7;
+  width: 113px;
+  height: 113px;
 }
 
 .reasons_descr {
@@ -208,7 +215,7 @@ nav {
 
 .reasons_descr_subtitle {
   line-height: 21px;
-  color: #1eacc7 re;
+  color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
@@ -357,7 +364,7 @@ nav {
   display: block;
   width: 14px;
   height: 2px;
-  background-color: #1eacc7 re;
+  background-color: #1eacc7;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -371,7 +378,7 @@ nav {
   display: block;
   width: 2px;
   height: 14px;
-  background-color: #1eacc7 re;
+  background-color: #1eacc7;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
 }
@@ -427,7 +434,7 @@ nav {
 .requare_title {
   font-weight: normal;
   font-size: 22px;
-  color: #1eacc7 re;
+  color: #1eacc7;
 }
 
 .requare_list {
@@ -458,7 +465,7 @@ nav {
 .requare_descr {
   font-weight: 300;
   font-size: 17px;
-  color: #1eacc7 re;
+  color: #1eacc7;
 }
 
 .requare .warning .requare_title {
@@ -480,7 +487,7 @@ nav {
   font-size: 15px;
   text-align: center;
   text-transform: uppercase;
-  color: #1eacc7 re;
+  color: #1eacc7;
 }
 
 footer {
@@ -494,7 +501,7 @@ footer a:hover {
 .footer_divider {
   width: 299px;
   height: 4px;
-  background-color: #1eacc7 re;
+  background-color: #1eacc7;
   margin: 0 auto;
 }
 
@@ -597,7 +604,7 @@ footer a:hover {
 .footer_links_lang {
   display: block;
   margin: 0 auto;
-  color: #1eacc7 re;
+  color: #1eacc7;
   font-size: 11px;
   font-weight: 400;
   margin-top: 19px;
@@ -806,8 +813,8 @@ footer a:hover {
     margin-top: 6px;
   }
   .subheader_btn:hover {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(re, #1eacc7), to(#4ce2ff));
-    background-image: linear-gradient(to top, #1eacc7 re 0%, #4ce2ff 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   }
   .promo {
     min-height: 400px;
@@ -834,8 +841,8 @@ footer a:hover {
     font-size: 16px;
   }
   .promo_btn:hover {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(re, #1eacc7), to(#4ce2ff));
-    background-image: linear-gradient(to top, #1eacc7 re 0%, #4ce2ff 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   }
   .menu {
     width: 85%;
