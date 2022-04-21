@@ -1,0 +1,40 @@
+.requare
+    padding: 10px 0 94px 0
+    &_block
+        margin: 33px 0
+        &_nmb
+            margin-bottom: 0px
+    &_title
+        font-weight: normal
+        font-size: 22px
+        color: $main-color
+    &_list
+        list-style-type: none
+        padding-left: 50px
+        margin-top: 22px
+        li
+            position: relative
+            font-style: normal
+            font-weight: 300
+            font-size: 17px
+            margin-bottom: 10px
+            &:before
+                content: ''
+                display: block
+                position: absolute
+                left: -32px
+                top: 3px
+                width: 21px
+                height: 20px
+                background: url('../icons/check_blue.svg') center (center / cover) no-repeat
+    &_descr
+        font-weight: 300
+        font-size: 17px
+        color: $main-color
+    .warning
+        .requare_title
+            color: $second-color
+        .requare_list
+            li
+                &:before
+                    background: url('../icons/check_red.svg') center (center / cover) no-repeat
