@@ -12,11 +12,8 @@
                 align-items: flex-start
             &_descr
                 width: 300px
-    .footer
-        &_wrapper
-            margin: 0 auto
 
-@media (max-width: 991px)
+@media (min-width: 991px)
     .menu
         &_item
             padding-right: 8px
@@ -53,10 +50,17 @@
         &_img
             transform: translateX(-50px)
     .footer
-        margin: 0 auto
-        justify-content: space-evenly
+        &_wrapper
+            flex-direction: column
+            align-items: center
+        &_wrapper > div
+            width: 100%
+            margin: 10px 0
+        &_wrapper > div:nth-child(3)
+            justify-content: center
+        
 
-@media (max-width: 767px)
+@media (min-width: 767px)
     .menu
         position: fixed
         flex-direction: column
@@ -128,8 +132,17 @@
         &_img   
             width: 100%;  
             transform: translateX(-5%);
+    .footer
+        &_wrapper
+            flex-direction: column
+            align-items: center
+        &_wrapper > div
+            width: 100%
+            margin: 10px 0
+        &_wrapper > div:nth-child(3)
+            justify-content: center
                
-@media (max-width: 575px)
+@media (min-width: 575px)
     nav
         height: 30px
     header
@@ -225,5 +238,10 @@
         min-height: 400px
         &_suptitle
             margin-top: 100px
-
+    .footer
+        &_wrapper
+            flex-direction: column
+            align-items: center
+        &_wrapper > div
+            width: 100%
             
