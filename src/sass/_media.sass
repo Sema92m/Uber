@@ -1,24 +1,26 @@
-@media (max-width: 1200px)
-    .menu
-        &_item
-            padding-right: 20px
-            &_link
-                font-size: 13px
-        .promo
-            &_header
-                font-size: 50px
-        .reasons
-            &_block
-                align-items: flex-start
-            &_descr
-                width: 300px
+// @media (max-width: 1200px)
+//     .menu
+//         &_item
+//             padding-right: 20px
+//             &_link
+//                 font-size: 13px
+//         .promo
+//             &_header
+//                 font-size: 50px
+//         .reasons
+//             &_block
+//                 align-items: flex-start
+//             &_descr
+//                 width: 300px
 
-@media (min-width: 991px)
+@media (max-width: 991px)
     .menu
+        text-align: center
         &_item
             padding-right: 8px
         &_link
-            font-size: 10px
+            font-size: 12px
+            
     .subheader
         &_logo
             img
@@ -45,7 +47,7 @@
         &_descr
             width: 300px
             margin-top: 20px
-    .choice 
+    .choice
         padding-bottom: 80px
         &_img
             transform: translateX(-50px)
@@ -59,7 +61,7 @@
         &_wrapper > div:nth-child(3)
             justify-content: center
 
-@media (min-width: 767px)
+@media (max-width: 767px)
     .menu
         position: fixed
         flex-direction: column
@@ -128,8 +130,8 @@
         &_header
             line-height: 45px
     .choice
-        &_img   
-            width: 100%  
+        &_img
+            width: 100%
             transform: translateX(-5%)
     .footer
         &_wrapper
@@ -141,7 +143,7 @@
         &_wrapper > div:nth-child(3)
             justify-content: center
 
-@media (min-width: 575px)
+@media (max-width: 575px)
     nav
         height: 30px
     header
@@ -150,6 +152,14 @@
         font-size: 16px
         margin-top: 15px
         line-height: 16px
+    .menu
+        width: 50%
+    &_item
+        width: 100%
+        text-align: center
+        padding: 5px 0
+    &_link
+        display: block
     .subheader
         top: 30px
         height: 60px
@@ -173,7 +183,7 @@
     .promo
         min-height: 400px
         padding: 93px 0 35px 0
-        
+
         &_descr
             display: none
         &_header
@@ -192,14 +202,7 @@
             font-size: 16px
             &:hover
                 background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
-    .menu
-        width: 50%
-        &_item
-            width: 100%
-            text-align: center
-            padding: 5px 0
-        &_link
-            display: block
+
     .hamburger
         &_active
             left: 250px
@@ -226,8 +229,8 @@
 
     .choice
         min-height: 700px
-        &_img   
-            width: 100%  
+        &_img
+            width: 100%
             transform: translateX(-3%)
     .requare
         &_title
@@ -242,4 +245,3 @@
             align-items: center
         &_wrapper > div
             width: 100%
-            

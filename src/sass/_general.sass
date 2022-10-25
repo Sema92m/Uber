@@ -8,13 +8,14 @@ nav
     height: 50px
     background-color: #212121
     z-index: 5
+    cursor: pointer
 
-.hamburger
-    display: none
+// .hamburger
+//     display: none
 .menu
     display: flex
     justify-content: space-between
-    padding: 13px 70px
+    padding: 0 70px
     margin: 0
     list-style-type: none
     &_link
@@ -22,10 +23,20 @@ nav
         font-size: 15px
         font-weight: 300
     &_item
-        border-right: 2px dotted black
+        // border-right: 2px dotted black
         padding-right: 28px
-        &:last-child
-            border-right: none
+        // &:last-child
+        //     border-right: none
+
+.hamburger
+    display: block
+    position: absolute
+    right: 10px
+    top: 50%
+    -webkit-transform: translateY(-50%)
+    transform: translateY(-50%)
+    width: 26px
+    height: 12px
 
 .subheader
     position: absolute
